@@ -11,13 +11,13 @@
 
       // Array functions: filter, map, reduce, sort, etc
       // These functions return new arrays
-      let filteredResult = words.filter(function(word) {
+      let filteredResults = words.filter(function(word) {
         return word.length > 6;
       });
       
       // Because filteredResult is an array, we can index it as well
-      if (filteredResult.length > 0) {
-        alert(filteredResult[0]); 
+      if (filteredResults.length > 0) {
+        alert(filteredResults); 
       } else {
         alert("Nothing left after filtering!");
       }
